@@ -9,5 +9,5 @@ COPY package-lock.json /srv/app/client
 RUN npm install
 
 COPY . /srv/app/client
-
+ 
 CMD ["npm", "start"]
